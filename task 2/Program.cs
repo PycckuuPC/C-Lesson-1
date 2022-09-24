@@ -7,6 +7,6 @@ Console.WriteLine("Введите два целых числа");
 int A = Convert.ToInt32(Console.ReadLine());
 int B = Convert.ToInt32(Console.ReadLine());
 if(A > B) /*A - наибольшее*/
-    Console.WriteLine(A + " большее число");
+    Console.WriteLine("Max " + A + "; Min " + B );
     else /*B - наибольшее*/
-    Console.WriteLine(B + " большее число");
+    Console.WriteLine("Max " + B + "; Min " + A );
